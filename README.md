@@ -2,7 +2,7 @@
 
 **The Model Context Protocol (MCP) Command Center for Global Infrastructure**
 
-Built for the [Notion MCP Challenge](https://dev.to/challenges/notion-2026-03-04) | [Demo Video](#) | [DEV Post](#)
+Built for the [Notion MCP Challenge](https://dev.to/challenges/notion-2026-03-04) | [Demo Video](https://youtu.be/LK71W7_zd3k) | [DEV Post](https://dev.to/kanyingidickson-dev/project-valkyrie-ai-powered-crisis-logistics-response-hub-5gff)
 
 ---
 
