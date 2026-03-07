@@ -1,0 +1,7 @@
+echo "🔍 Running type-check..."
+npm run type-check
+
+echo "🎨 Checking formatting..."
+npm run format:check
+
+echo "✅ Pre-commit checks passed!"

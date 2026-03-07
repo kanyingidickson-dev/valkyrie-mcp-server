@@ -1,0 +1,56 @@
+version: '3.8'
+
+# PROJECT VALKYRIE - Docker Compose Configuration
+# Orchestrates MCP server and Python threat simulator
+
+services:
+  # MCP Server - The Brain
+  valkyrie-mcp:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: valkyrie_engine
+    env_file:
+      - .env
+    environment:
+      - MOCK_API_URL=http://mock-api:8000
+    ports:
+      - '3000:3000'
+    depends_on:
+      mock-api:
+        condition: service_healthy
+    restart: unless-stopped
+    networks:
+      - valkyrie-network
+    healthcheck:
+      test: ['CMD', 'wget', '-q', '--spider', 'http://localhost:3000/']
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 10s
+
+  # Python Threat Simulator - The Sensors
+  mock-api:
+    build:
+      context: ./mock-api
+      dockerfile: Dockerfile
+    container_name: valkyrie_mock
+    ports:
+      - '8000:8000'
+    restart: unless-stopped
+    networks:
+      - valkyrie-network
+    healthcheck:
+      test: ['CMD', 'wget', '-q', '--spider', 'http://localhost:8000/health']
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 5s
+
+networks:
+  valkyrie-network:
+    driver: bridge
+
+# Volumes for persistent data (optional)
+# volumes:
+#   valkyrie-data:
