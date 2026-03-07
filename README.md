@@ -102,7 +102,7 @@ npm install
 | Status | Status (Draft, Awaiting Approval, In Progress, Resolved) |
 | Threat Level | Select (Critical (Red), Elevated (Yellow), Stable (Green)) |
 | Affected Assets | Relation → Logistics DB |
-| AI Assessment | Text |
+| AI Assessments | Rich Text |
 
 **Global Assets & Logistics Database:**
 | Property | Type |
@@ -110,6 +110,13 @@ npm install
 | Asset Name | Title |
 | Coordinates | Text |
 | Risk Sensitivity | Number (1-10) |
+| Status | Select (Active, Inactive, Maintenance) |
+| Facility Type | Select (Distribution Hub, Transport Node, Data Center) |
+| Primary Contact | Text |
+| Primary Phone | Phone |
+| Primary Email | Email |
+| Facility Manager | Text |
+| Last Audit | Date |
 
 ### 4. Share Databases with Integration
 
