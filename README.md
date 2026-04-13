@@ -82,7 +82,7 @@ _Technical Component Stack - Docker containers for MCP Server and Mock API_
 ### 1. Clone & Install
 
 ```bash
-git clone https://github.com/yourusername/valkyrie-mcp-server.git
+git clone https://github.com/kanyingidickson-dev/valkyrie-mcp-server.git
 cd valkyrie-mcp-server
 npm install
 ```
