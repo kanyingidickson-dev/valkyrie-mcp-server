@@ -322,3 +322,4 @@ valkyrie-mcp-server/
 ```
 
 ---
+MIT License: [See License](LICENSE)
