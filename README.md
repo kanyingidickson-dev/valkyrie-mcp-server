@@ -2,8 +2,6 @@
 
 **The Model Context Protocol (MCP) Command Center for Global Infrastructure**
 
-Built for the [Notion MCP Challenge](https://dev.to/challenges/notion-2026-03-04) | [Demo Video](https://youtu.be/LK71W7_zd3k) | [DEV Post](https://dev.to/kanyingidickson-dev/project-valkyrie-ai-powered-crisis-logistics-response-hub-5gff)
-
 ---
 
 ## 🌪️ The Problem
@@ -324,29 +322,3 @@ valkyrie-mcp-server/
 ```
 
 ---
-
-## 🎯 Judging Criteria Alignment
-
-| Criteria                     | How Valkyrie Addresses                                  |
-| ---------------------------- | ------------------------------------------------------- |
-| **Originality & Creativity** | Global crisis logistics vs. typical productivity apps   |
-| **Technical Complexity**     | MCP server, relational mapping, Docker, CI/CD           |
-| **Practical Implementation** | Working demo with simulated threats, Notion integration |
-
----
-
-## 📝 License
-
-MIT License - See [LICENSE](LICENSE)
-
----
-
-## 🙏 Acknowledgments
-
-- [Notion](https://notion.so) for the MCP SDK and API
-- [Model Context Protocol](https://modelcontextprotocol.io) for the integration framework
-- [DEV Community](https://dev.to) for the challenge platform
-
----
-
-**Built for the Notion MCP Challenge 2026** 🚀
