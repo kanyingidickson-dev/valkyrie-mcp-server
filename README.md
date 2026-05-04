@@ -4,6 +4,9 @@
 
 ---
 
+Youtube: [youtube.com/Project Valkyrie : AI-Powered Crisis Logistics (Notion Workspace)](https://youtu.be/LK71W7_zd3k?si=PCeO63JXI_ZnOich)
+
+
 ## 🌪️ The Problem
 
 In modern logistics, **"latency kills."** When a natural disaster or geopolitical event occurs, information is scattered across news feeds, weather maps, and internal databases. Operators lose precious minutes switching between tabs, trying to piece together a complete picture of the crisis.
