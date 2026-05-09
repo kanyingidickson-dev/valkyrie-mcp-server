@@ -4,7 +4,7 @@
 
 ---
 
-Youtube: [youtube.com/Project Valkyrie : AI-Powered Crisis Logistics (Notion Workspace)](https://youtu.be/LK71W7_zd3k?si=PCeO63JXI_ZnOich)
+Demo Video: [Youtube.com/Project Valkyrie : AI-Powered Crisis Logistics (Notion Workspace)](https://youtu.be/LK71W7_zd3k?si=PCeO63JXI_ZnOich)
 
 
 ## 🌪️ The Problem
